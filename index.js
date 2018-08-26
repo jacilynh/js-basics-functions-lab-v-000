@@ -32,7 +32,7 @@ function calculatesFarePrice(start, destination) {
   else {
     farePrice = 
   }
-  return farePrice
+  return farePrice = 'cannot travel that far'
 }
 
 
