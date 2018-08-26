@@ -30,9 +30,9 @@ function calculatesFarePrice(start, destination) {
     farePrice = 25
   }
   else {
-    farePrice = 
+    farePrice = 'cannot travel that far'
   }
-  return farePrice = 'cannot travel that far'
+  return farePrice
 }
 
 
