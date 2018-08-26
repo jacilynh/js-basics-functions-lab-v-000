@@ -19,7 +19,7 @@ function distanceTravelledInFeet(start, destination) {
 
 // gives cust. free sample for 400 ft, $0.02/ft b/w 400 - 2000 ft, $25 for distance > 2000 ft, does not allow rides > 2500 ft
 function calculatesFarePrice(start, destination) {
-  let distance = distanceTravelledInFeet(start, destination);
+  var distance = distanceTravelledInFeet(start, destination);
   if (distance <= 400) {
     farePrice = 0
   }
